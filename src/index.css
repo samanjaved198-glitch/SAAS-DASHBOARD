@@ -25,3 +25,25 @@ body {
 h1, h2, h3, h4 {
   font-family: var(--font-heading);
 }
+
+.testimonial-swiper .swiper-button-next,
+.testimonial-swiper .swiper-button-prev {
+  color: var(--color-accent);
+  width: 36px;
+  height: 36px;
+}
+
+.testimonial-swiper .swiper-button-next::after,
+.testimonial-swiper .swiper-button-prev::after {
+  font-size: 16px;
+}
+
+.testimonial-swiper .swiper-pagination-bullet {
+  background: var(--color-text-secondary);
+  opacity: 0.5;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+  background: var(--color-primary);
+  opacity: 1;
+}
