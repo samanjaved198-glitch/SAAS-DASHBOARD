@@ -2,6 +2,7 @@ import { ThemeProvider } from "./context/ThemeContext";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Features from "./components/features/Features";
+import Showcase from "./components/showcase/Showcase";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
         <Hero />
         <Features />
+        <Showcase />
         {/* Showcase, Pricing, Comparison, Testimonials, FAQ, Blog, Contact, Footer will go here */}
       </div>
     </ThemeProvider>
