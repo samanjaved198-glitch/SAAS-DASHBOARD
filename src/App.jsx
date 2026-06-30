@@ -1,15 +1,16 @@
 import { ThemeProvider } from "./context/ThemeContext";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
+import Features from "./components/features/Features";
 
-// Navbar ke neeche:
-<Hero />
 function App() {
   return (
     <ThemeProvider>
       <div>
         <Navbar />
-        {/* Hero, Features, Pricing, etc. sections will go here */}
+        <Hero />
+        <Features />
+        {/* Showcase, Pricing, Comparison, Testimonials, FAQ, Blog, Contact, Footer will go here */}
       </div>
     </ThemeProvider>
   );
