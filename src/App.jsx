@@ -5,7 +5,7 @@ import Features from "./components/features/Features";
 import Showcase from "./components/showcase/Showcase";
 import Pricing from "./components/pricing/Pricing";
 import Testimonials from "./components/testimonials/Testimonials";
-
+import FAQ from "./components/faq/FAQ";
 function App() {
   return (
     <ThemeProvider>
@@ -16,6 +16,7 @@ function App() {
         <Showcase />
         <Pricing />
         <Testimonials />
+        <FAQ />
         {/* Showcase, Pricing, Comparison, Testimonials, FAQ, Blog, Contact, Footer will go here */}
       </div>
     </ThemeProvider>
