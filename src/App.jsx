@@ -7,6 +7,7 @@ import Pricing from "./components/pricing/Pricing";
 import Testimonials from "./components/testimonials/Testimonials";
 import FAQ from "./components/faq/FAQ";
 import Contact from "./components/contact/Contact";
+import Statistics from "./components/statistics/Statistics";
 function App() {
   return (
     <ThemeProvider>
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Hero />
         <Features />
+        <Statistics />
         <Showcase />
         <Pricing />
         <Testimonials />
