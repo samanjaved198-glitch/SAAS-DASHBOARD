@@ -8,6 +8,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import FAQ from "./components/faq/FAQ";
 import Contact from "./components/contact/Contact";
 import Statistics from "./components/statistics/Statistics";
+import Blog from "./components/blog/Blog";
 function App() {
   return (
     <ThemeProvider>
@@ -20,6 +21,7 @@ function App() {
         <Pricing />
         <Testimonials />
         <FAQ />
+        <Blog />
         <Contact />
         {/* Showcase, Pricing, Comparison, Testimonials, FAQ, Blog, Contact, Footer will go here */}
       </div>
