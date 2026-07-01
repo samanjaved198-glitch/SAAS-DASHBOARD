@@ -10,6 +10,7 @@ import Contact from "./components/contact/Contact";
 import Statistics from "./components/statistics/Statistics";
 import Blog from "./components/blog/Blog";
 import Comparison from "./components/comparison/Comparison";
+import Footer from "./components/footer/Footer";
 function App() {
   return (
     <ThemeProvider>
@@ -25,7 +26,8 @@ function App() {
         <FAQ />
         <Blog />
         <Contact />
-        {/* Showcase, Pricing, Comparison, Testimonials, FAQ, Blog, Contact, Footer will go here */}
+        <Footer />
+        
       </div>
     </ThemeProvider>
   );
