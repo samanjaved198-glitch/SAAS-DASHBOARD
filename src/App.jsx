@@ -9,6 +9,7 @@ import FAQ from "./components/faq/FAQ";
 import Contact from "./components/contact/Contact";
 import Statistics from "./components/statistics/Statistics";
 import Blog from "./components/blog/Blog";
+import Comparison from "./components/comparison/Comparison";
 function App() {
   return (
     <ThemeProvider>
@@ -19,6 +20,7 @@ function App() {
         <Statistics />
         <Showcase />
         <Pricing />
+        <Comparison />
         <Testimonials />
         <FAQ />
         <Blog />
